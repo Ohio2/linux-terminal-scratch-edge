@@ -1,3 +1,3 @@
 # linux-terminal-scratch-edge
 You pack this into the "sb3" format...
-Also Licence might break it so remove it.
+Also Licence might break it so remove it && Readme.
