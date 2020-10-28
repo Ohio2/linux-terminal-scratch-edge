@@ -1,3 +1,4 @@
 # linux-terminal-scratch-edge
-You pack this into the "sb3" format...
-verified, and readme and license is not breaking anything.
+## to compile:
+make sure you have ```zip``` installed 
+```sh pkg.sh```
