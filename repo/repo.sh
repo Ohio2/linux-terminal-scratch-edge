@@ -11,7 +11,7 @@ if [ input=1 ] #should be one
 then 
  mkdir root_repo/
  cd .. 
- cp *(repo) repo/root
+ cp * repo/root_repo
  cd repo/
  echo -e '\e[96mCopied!'
  cd root_repo/
