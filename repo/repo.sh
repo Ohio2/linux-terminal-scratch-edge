@@ -23,7 +23,7 @@ echo '#Edit here! No patch guides yet...' >> pkg.sh
 echo 'echo '' ' >> pkg.sh
 vim pkg.sh
 echo -e '\e[94mPassing on to pkg.sh (modded, in repo)'
-sh pkg.sh 
+chmod +x pkg.sh ; ./pkg.sh ; chmod -x
 mv Scratch-Edge.sb3 .. 
 cd .. 
 rm -rf root_repo
