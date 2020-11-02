@@ -20,7 +20,16 @@ else
  echo -e '\e[91mError! Something broke! Check the script for more info'
 fi 
 echo '#Edit here! No patch guides yet...' >> pkg.sh
+# BO Editors
+# NANO
+# nano pkg.sh
+# VIM (DEFAULT)
 vim pkg.sh
+# NVIM
+# nvim pkg.sh
+# EMACS
+# emacs pkg.sh
+# EO Editors
 echo -e '\e[94mPassing on to pkg.sh (modded, in repo)'
 chmod +x pkg.sh ; ./pkg.sh 
 chmod -x pkg.sh 2>/dev/null
