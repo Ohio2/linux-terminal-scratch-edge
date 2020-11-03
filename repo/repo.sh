@@ -23,8 +23,8 @@ echo '#Edit here! No patch guides yet...' >> pkg.sh
 # BO Editors
 # NANO
 # nano pkg.sh
-# VIM (DEFAULT)
-vim pkg.sh
+# VIM (DEFAULT), DISABLED
+#vim pkg.sh
 # NVIM
 # nvim pkg.sh
 # EMACS
@@ -36,4 +36,5 @@ chmod -x pkg.sh 2>/dev/null
 mv Scratch-Edge.sb3 .. 
 cd .. 
 rm -rf root_repo 
-
+# ------------------------------------------------------
+echo -e '\e[92mSeems Okay'
