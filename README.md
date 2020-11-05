@@ -6,4 +6,4 @@ make sure you have ```zip``` installed
 ## (Linux, MacOS) repo script:
 again, make sure you have ```zip``` installed.
 
-```cd repo ; chmod +x repo.sh ; ./pkg.sh```
+```cd repo ; chmod +x repo.sh ; ./repo.sh```
