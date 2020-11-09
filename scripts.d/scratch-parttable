@@ -1,0 +1,12 @@
+#!/bin/sh
+# define wd
+set wd=$(pwd)
+cd scripts.d
+set USER=$(whoami)
+if [ USER=root ]
+then
+ echo 'But why?'
+else
+ echo 'Ok...'
+ echo 'PartTable initiated fine!'
+fi
